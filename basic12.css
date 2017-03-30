@@ -1,0 +1,211 @@
+html
+{
+	overflow: scroll;
+}
+
+.button1 a:link, a:visited 
+{
+    background-color: #4169FF;
+    color: #FFFFFF;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 40px;
+	font-family: Koverwatch;
+	font-size: 140%;
+}
+
+
+.button1 a:hover, a:active 
+{
+    background-color: #FFFFFF;
+	color: #4169FF;
+}
+
+.button2 a:link, a:visited 
+{
+    background-color: #4169FF;
+    color: #FFFFFF;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	font-family: Koverwatch;
+	font-size: 140%;
+}
+
+.button2 a:hover, a:active 
+{
+    background-color: #FFFFFF;
+	color: #4169FF;
+}
+
+.button3 a:link, a:visited 
+{
+    background-color: #4169FF;
+    color: #FFFFFF;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 345px;
+	font-family: Koverwatch;
+	font-size: 140%;
+}
+
+.button3 a:hover, a:active 
+{
+    background-color: #FFFFFF;
+	color: #4169FF;
+}
+
+.button4 a:link, a:visited 
+{
+    background-color: #4169FF;
+    color: #FFFFFF;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 480px;
+	font-family: Koverwatch;
+	font-size: 140%;
+}
+
+.button4 a:hover, a:active 
+{
+    background-color: #FFFFFF;
+	color: #4169FF;
+}
+
+.search_engine input[type=text] 
+{
+	width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #4169FF;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 16px 20px 16px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	position: absolute;
+	top: 0px;
+	left: 607px;
+}
+
+.search_engine input[type=text]:focus 
+{
+    width: 50%;
+}
+
+@font-face 
+{
+	font-family: Koverwatch;
+	src: url(font/bignoodle/big_noodle_titling.ttf);
+}
+
+body
+{
+	background-image: url(images/Heroes/Junkratbackground1.jpg), url(images/Heroes/Junkratintro.jpg), url(images/Heroes/Junkratbackground2.png);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-size: 100% 700px, 100% 700px, 100% 800px;
+	background-position: 0px 0px, 0px 700px, 0px 1400px;
+}
+
+h1
+{
+	position: absolute;
+	top: 1550px;
+	left: 1px;
+	font-size: 1px;
+}
+
+#pvpmontage1
+{
+	position: absolute;
+	border: 0px;
+	top: 1550px;
+	right: 100px; 
+}
+
+#abilityoverview
+{
+	position: absolute;
+	border: 0px;
+	top: 1550px;
+	left: 100px; 
+}
+
+.Textjunkrat p
+{
+	position: absolute;
+	left: 550px;
+	font-family: Koverwatch;
+	color: #FFFFFF;
+	font-size: 18px;
+	
+}
+
+.Textjunkrat #p1
+{
+
+	top: 1450px;
+	font-size: 50px;
+}
+
+.Textjunkrat #p2
+{
+	top: 1550px;
+}
+
+.Textjunkrat #p3
+{
+	top: 1600px;
+}
+
+.Textjunkrat #p4
+{
+	top: 1650px;
+}
+
+.Textjunkrat #p5
+{
+	top: 1700px;
+}
+
+.Textjunkrat #p6
+{
+	top: 1750px;
+}
+
+.Textjunkrat #p7
+{
+	left: 400px;
+	top: 1800px;
+	right: 400px;
+	padding-bottom: 250px;
+	font-style: italic;
+}
+
+ul
+{
+	position: absolute;
+	top: 1880px;
+	left: 300px;
+	right: 300px;
+	color: #FFFFFF;
+}

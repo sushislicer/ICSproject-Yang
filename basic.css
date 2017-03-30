@@ -1,0 +1,362 @@
+html 
+{
+	overflow: scroll;
+}
+
+.p1 
+{
+	position:absolute;
+	top: 720px;
+	left: 465px;
+	font-family: Koverwatch;
+}
+
+.button1 a:link, a:visited 
+{
+    background-color: #4169FF;
+    color: #FFFFFF;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	position: absolute;
+	top: 660px;
+	left: 40px;
+	font-family: Koverwatch;
+	font-size: 140%;
+}
+
+
+.button1 a:hover, a:active 
+{
+    background-color: #FFFFFF;
+	color: #4169FF;
+}
+
+.button2 a:link, a:visited 
+{
+    background-color: #4169FF;
+    color: #FFFFFF;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	position: absolute;
+	top: 660px;
+	left: 200px;
+	font-family: Koverwatch;
+	font-size: 140%;
+}
+
+.button2 a:hover, a:active 
+{
+    background-color: #FFFFFF;
+	color: #4169FF;
+}
+
+.button3 a:link, a:visited 
+{
+    background-color: #4169FF;
+    color: #FFFFFF;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	position: absolute;
+	top: 660px;
+	left: 345px;
+	font-family: Koverwatch;
+	font-size: 140%;
+}
+
+.button3 a:hover, a:active 
+{
+    background-color: #FFFFFF;
+	color: #4169FF;
+}
+
+.button4 a:link, a:visited 
+{
+    background-color: #4169FF;
+    color: #FFFFFF;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	position: absolute;
+	top: 660px;
+	left: 480px;
+	font-family: Koverwatch;
+	font-size: 140%;
+}
+
+.button4 a:hover, a:active 
+{
+    background-color: #FFFFFF;
+	color: #4169FF;
+}
+
+.search_engine input[type=text] 
+{
+	width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #4169FF;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 16px 20px 16px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	position: absolute;
+	top: 660px;
+	left: 607px;
+}
+
+.search_engine input[type=text]:focus 
+{
+    width: 50%;
+}
+
+body 
+{
+	background-image: url(images/general/overwatch1.jpg), url(images/general/MuseumBackground.jpg), url(images/general/BackgroundNeutral.jpg);
+	background-size: 100% 750px, 100% 300px, 100% 900px;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: 50% 0%, 0px 750px, 0px 1050px;
+}
+
+
+h1 
+{
+	text-align: center;
+	font-family: Koverwatch;
+	position: absolute;
+	top: 790px;
+	left: 730px;
+	color: #202020;
+}
+
+@font-face 
+{
+	font-family: Koverwatch;
+	src: url(font/bignoodle/big_noodle_titling.ttf);
+}
+
+/* Imported my own font from Blizzard */
+
+#p1
+{
+	font-family: Koverwatch;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	position: absolute;
+	top: 850px;
+	left: 620px;
+	right: 300px;
+}
+
+#p2
+{
+	font-family: Koverwatch;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	position: absolute;
+	top: 960px;
+	left: 710px;
+}
+
+#p3
+{
+	font-family: Koverwatch;
+	font-size: 28px;
+	font-style: italic;
+	text-align: center;
+	position: absolute;
+	top: 980px;
+	left: 820px;
+	font-weight: bold;
+}
+
+.trailervid1 iframe
+{
+	position: absolute;
+	top: 780px;
+	left: 100px;
+}
+
+h2
+{
+	position: absolute;
+	top: 1050px;
+	left: 570px;
+	font-family: Koverwatch;
+	text-align: center;
+	font-size: 70px;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 3px;
+}
+
+.herobuttonlist img
+{
+	height: 130px;
+	width: 130px;
+	border: 0px;
+	position: absolute;
+}
+
+.herobuttonlist img:hover
+{
+	transform: scale(1.2);
+}
+
+.row1 img
+{
+	top: 1250px;
+}
+
+#Genjiimgportrait
+{
+	left: 170px;
+}
+
+#Mccreeimgportrait
+{
+	left: 320px;
+}
+
+#Pharahimgportrait
+{
+	left: 470px;
+}
+
+#Reaperimgportrait
+{
+	left: 620px;
+}
+
+#Soldierimgportrait
+{
+	left: 770px;
+}
+
+#Sombraimgportrait
+{
+	left: 920px;
+}
+
+#Tracerimgportrait
+{
+	left: 1070px;
+}
+
+.row2 img
+{
+	top: 1400px;
+}
+
+#Bastionimgportrait
+{
+	left: 260px;
+}
+
+#Hanzoimgportrait
+{
+	left: 410px;
+}
+ 
+#Junkratimgportrait
+{
+	left: 560px;
+}
+
+#Meiimgportrait
+{
+	left: 710px;
+}
+
+#Torbjornimgportrait
+{
+	left: 860px;
+}
+
+#Widowmakerimgportrait
+{
+	left: 1010px;
+}
+
+.row3 img
+{
+	top: 1550px;
+}
+
+#Dvaimgportrait
+{
+	left: 260px;
+}
+
+#Orisaimgportrait
+{
+	left: 410px;
+}
+ 
+#Reinhardtimgportrait
+{
+	left: 560px;
+}
+
+#Roadhogimgportrait
+{
+	left: 710px;
+}
+
+#Monkeyimgportrait
+{
+	left: 860px;
+}
+
+#Zaryaimgportrait
+{
+	left: 1010px;
+}
+
+.row4 img
+{
+	top: 1700px;
+}
+
+#Anaimgportrait
+{
+	left: 320px;
+}
+
+#Lucioimgportrait
+{
+	left: 470px;
+}
+
+#Mercyimgportrait
+{
+	left: 620px;
+}
+
+#Symmetraimgportrait
+{
+	left: 770px;
+}
+
+#Zenyattaimgportrait
+{
+	left: 920px;
+}
+
+h3 a
+{
+	position: absolute;
+	top: 1830px;
+}

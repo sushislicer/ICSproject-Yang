@@ -1,0 +1,146 @@
+html
+{
+	overflow: scroll;
+}
+
+body
+{
+	background-image: url(images/Maps/AssaultMaps.jpg) , url(images/Maps/EscortMaps.jpg), url(images/Maps/ControlMaps.jpg), url(images/Maps/Halfescort.jpg), url(images/Maps/Mapsbackground.jpg), url(images/Maps/TempleofAnubis.jpg), url(images/Maps/Hanamura.jpg), url(images/Maps/VolskayaIndustries.jpg), url(images/Maps/WatchpointGibraltar.jpg), url(images/Maps/Dorado.jpg), url(images/Maps/Route66.png), url(images/Maps/LijiangTower.png), url(images/Maps/Ilios.jpg), url(images/Maps/Nepal.png), url(images/Maps/Oasis.jpg), url(images/Maps/KingsRow.jpg), url(images/Maps/Numbani.jpg), url(images/Maps/Hollywood.jpg), url(images/Maps/Eichenwalde.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+	background-size: 100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 170px, 100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 900px;
+	background-position: 0px 170px, 0px 1070px, 0px 1970px, 0px 2870px, 0px 0px, 0px 3770px, 0px 4670px, 0px 5570px, 0px 6470px, 0px 7370px, 0px 8270px, 0px 9170px, 0px 10070px, 0px 10970px, 0px 11870px, 0px 12770px, 0px 13670px, 0px 14570px, 0px 15470px;
+}
+
+.p1
+{
+	font-family: Koverwatch;
+	color: #FFFFFF;
+	position: absolute;
+	top: 0px;
+	left: 600px;
+	font-size: 80px;
+}
+
+@font-face 
+{
+	font-family: Koverwatch;
+	src: url(font/bignoodle/big_noodle_titling.ttf);
+}
+
+.button1 a:link, a:visited 
+{
+    background-color: #4169FF;
+    color: #FFFFFF;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-family: Koverwatch;
+	font-size: 140%;
+}
+
+
+.button1 a:hover, a:active 
+{
+    background-color: #FFFFFF;
+	color: #4169FF;
+}
+
+.button2 a:link, a:visited 
+{
+    background-color: #4169FF;
+    color: #FFFFFF;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 160px;
+	font-family: Koverwatch;
+	font-size: 140%;
+}
+
+.button2 a:hover, a:active 
+{
+    background-color: #FFFFFF;
+	color: #4169FF;
+}
+
+.button3 a:link, a:visited 
+{
+    background-color: #4169FF;
+    color: #FFFFFF;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 305px;
+	font-family: Koverwatch;
+	font-size: 140%;
+}
+
+.button3 a:hover, a:active 
+{
+    background-color: #FFFFFF;
+	color: #4169FF;
+}
+
+.button4 a:link, a:visited 
+{
+    background-color: #4169FF;
+    color: #FFFFFF;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 440px;
+	font-family: Koverwatch;
+	font-size: 140%;
+}
+
+.button4 a:hover, a:active 
+{
+    background-color: #FFFFFF;
+	color: #4169FF;
+}
+
+.search_engine input[type=text] 
+{
+	width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #4169FF;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 16px 20px 16px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	position: absolute;
+	top: 0px;
+	left: 567px;
+}
+
+.search_engine input[type=text]:focus 
+{
+    width: 50%;
+}
+
+h1
+{
+	color:#FFFFFF;
+	font-size: 1px;
+	position: absolute;
+	top: 2537%;
+	left: 10px;
+}
